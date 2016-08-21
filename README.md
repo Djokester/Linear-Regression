@@ -1,2 +1,2 @@
 # Machine-Learning-Algorithms
-To implement Gradient Descent and Partial Differentiation
+To implement Gradient Descent, Linear Regression, Normalization, Clustering and other Algorithms. 
