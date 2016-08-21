@@ -13,8 +13,8 @@ Important Modules:
 functools.partial() blocks certain parts of a function and thereby modifies its functionalities
 ``` python
 >>> import functools as fn
-...  def sq(a, b, c):
->>> return(a*b*b*c)
+>>> def sq(a, b, c):
+...   return(a*b*b*c)
 >>> sql = fn.partial(sq, 4, c=5)
 >>> sql(3)
 180
