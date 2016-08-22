@@ -1,5 +1,5 @@
-# Machine-Learning-Algorithms
-To implement Gradient Descent, Linear Regression, Normalization, Clustering and other Machime Learning Algorithms. 
+# Linear-Regression
+To implement Gradient Descent, Batch Gradient Descent and Linear Regression. 
 If you are unable understand the utility of any function or module please refer to this README for explainations
 
 Important Modules:
