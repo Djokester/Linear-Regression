@@ -2,6 +2,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 import functools as fn
 import random 
+
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+
 #Define any Function under the function method.
 #By Default I have set it to function(X)=[x^2,y^2,z^2]. Where X = [x,y,z]. 
 def function(X): 
@@ -29,5 +35,6 @@ while True:
     if sum([(x-y)**2 for x,y in zip(v, next_v)]) < tolerance**2:
             break
     v = next_v
+  
     
 print(v)
